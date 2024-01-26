@@ -14,8 +14,8 @@ const SPEECH_API_KEY = 'AQVNzQwFMU0sL1tMG3pr6zAZ79Xl45_M0AmlAayL';
 
 const translatorSettings = {
     autodetect: 0,
-    default_src_lang: "ru",
-    default_targ_lang: "en"
+    default_src_lang: "en",
+    default_targ_lang: "ru"
 };
 
 const connection = mysql2.createConnection({
